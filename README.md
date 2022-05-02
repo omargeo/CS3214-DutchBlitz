@@ -1,6 +1,7 @@
 # CS3214-DutchBlitz
 
 **Dutch Blitz**
+
 (Dutch Blitz is a registered trademark by the company who makes and distributes
 the card game.)
 According to https://dutchblitz.com/:
@@ -10,6 +11,7 @@ You can find a Youtube video introducing the game here:
 https://www.youtube.com/watch?v=6n3VyC0ngY8
 
 **Introduction**
+
 Dutch Blitz is a concurrent game.  4 players play simultaneously with their
 own deck in a manner that resembles a Solitaire-style game:
 Player have 3 temporary piles of cards (the post piles) where cards can
@@ -33,6 +35,7 @@ time so that all players get a chance to access the dutch pile to play a card.
 Throwing cards or using both hands is not allowed!
 
 **Goal**
+
 The goal of this guided exercise is to simulate this game using multiple
 threads. These threads will run concurrently, and likely in parallel,
 on multiple cores or CPU.  In order to ensure consistency, you will need
